@@ -24,3 +24,8 @@ function showReply(){
     var replyArea = document.getElementById("reply-area");
     replyArea.classList.remove("hide");
 }
+
+//Sign
+function signPetition(){
+    document.getElementById("signTotal").stepUp();
+}
